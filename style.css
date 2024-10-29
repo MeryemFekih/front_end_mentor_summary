@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width:470px;
+    height: 350px;
+    margin: auto;
+
+}
+.result{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 20px;
+    text-align: center;
+    
+
+
+}
+.summary{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#res{
+    border-radius: 50% ;
+    width:120px;
+    height:120px;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin:auto;
+    color: hsla(241, 100%, 89%, 0.788);
+    font-size: small;
+}
+#r76{
+    color: white;
+    font-size:xxx-large;
+
+
+}
+
+#sum{
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#great{
+    font-size: x-large ;
+    color: white;
+    font-family:sans-serif;
+}
+.RMVV{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items:center;
+    border-radius:4px;
+    margin: auto;
+    height:35px ;
+    width:190px ;
+
+    
+}
+.reaction{
+    background-color: hsla(0, 99%, 70%, 0.094);
+
+}
+.reaction #react{
+    font-size: 18px;
+    color: hsl(0, 100%, 67%);
+    
+}
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.094);
+
+}
+.memory #memo{
+    font-size: 18px;
+    color: hsl(39, 100%, 56%);
+}
+
+.Verbal{
+    background-color: hsla(166, 100%, 37%, 0.094);
+}
+.Verbal #ver{
+    font-size: 18px;
+    color: hsl(166, 100%, 37%);
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.094);
+}
+.visual #vis{
+    font-size: 18px;
+    color: hsl(234, 85%, 45%);
+}
+.percent{
+    color: hsl(240, 1%, 42%);
+}
+#submit{
+    color: white;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border: 0px;
+    border-radius: 20px;
+    height: 30px;
+    width: 190px;
+    
+}
+#submit :hover{
+    background-color:hsl(224, 30%, 27%);
+}
